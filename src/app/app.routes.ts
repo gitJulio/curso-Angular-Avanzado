@@ -1,4 +1,4 @@
-import { PagesComponent } from './pages/pages.component';
+import { RegisterComponent } from './login/register/register.component';
 import { PagesComponent } from './pages/pages.component';
 import { Graficas1Component } from './pages/graficas1/graficas1.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
@@ -19,8 +19,8 @@ const routes: Routes = [
       { path: '', redirectTo:'/dashboard', pathMatch:'full'}
     ]
   },
-  { path: 'login', component: LoginComponent },
-  { path: 'register', component: LoginComponent },
+  {path: 'login',  component: LoginComponent},
+  {path: 'register',component: RegisterComponent},{path: 'register',component: RegisterComponent},
   {path:'**', component:NopagefoundComponent}
 ];
 

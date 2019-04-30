@@ -1,3 +1,4 @@
+import { RegisterComponent } from './login/register/register.component';
 import { AppRoutingModule } from './app.routes';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -14,6 +15,7 @@ import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { BreadcrumbsComponent } from './shared/breadcrumbs/breadcrumbs.component';
 import { PagesComponent } from './pages/pages.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +27,8 @@ import { PagesComponent } from './pages/pages.component';
     HeaderComponent,
     SidebarComponent,
     BreadcrumbsComponent,
-    PagesComponent
+    PagesComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
