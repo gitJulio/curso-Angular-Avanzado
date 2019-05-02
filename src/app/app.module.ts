@@ -1,3 +1,4 @@
+import { AppRoutingModulePages } from './pages/pages.routes';
 
 import { RegisterComponent } from './login/register/register.component';
 import { AppRoutingModule } from './app.routes';
@@ -34,7 +35,8 @@ import { PagesModule } from './pages/pages.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    PagesModule
+    PagesModule,
+    AppRoutingModulePages
   ],
   providers: [],
   bootstrap: [AppComponent]
